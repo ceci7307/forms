@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pizza</title>
+  </head>
+  <body>
+    <h1>Din bestilling</h1>
+
+    <form>
+      <h2>Ønsker du ekstra tilbehør?</h2>
+      <p>Ekstra tilbehør koster 5 kr.</p>
+      <label> <span>Ost</span> <input type="checkbox" name="ekstra" /> </label>
+      <label>
+        <span>Tomat</span> <input type="checkbox" name="ekstra" />
+      </label>
+      <label> <span>Løg</span> <input type="checkbox" name="ekstra" /> </label>
+      <br />
+      <br />
+      <h2>Leveringsinfo</h2>
+      <span>Adresse</span>
+      <input type="text" name="adresse" placeholder="Indtast adresse" />
+      <span>Gade nr.</span>
+      <input type="text" name="gadeNr" placeholder="Indtast gadenummer" />
+      <span>Post nr.</span>
+      <input type="tel" name="postNr" placeholder="Indtast postnummer" />
+      <br />
+      <br />
+      <span>Mobil nr.</span>
+      <input type="tel" name="mobil" placeholder="Indtast mobilnummer" />
+      <br />
+      <br />
+      <h2>Ønsket leveringstidpunkt</h2>
+      <label>
+        <span>17:30</span>
+        <input type="radio" name="tid" />
+      </label>
+      <label>
+        <span>18:00</span>
+        <input type="radio" name="tid" />
+      </label>
+      <label>
+        <span>18:30</span>
+        <input type="radio" name="tid" />
+      </label>
+      <br />
+      <br />
+      <h2>Har du en rabatkode?</h2>
+      <span>Indtast rabatkode:</span>
+      <input type="password" name="kode" placeholder="*******" />
+      <br />
+      <br />
+      <input type="submit" name="send" value="Bestil" />
+    </form>
+
+    <br />
+    <br />
+    <form>
+      <fieldset>
+        <legend><h1>Tilmeld dig vores nyhedsbrev</h1></legend>
+        <p>Få gode tilbud sendt til din mail</p>
+        <p>Skriv dit navn:</p>
+        <input type="text" name="navn" placeholder="Dit navn" />
+        <p>Skriv din e-mail:</p>
+        <input type="email" name="email" placeholder="Din e-mail" />
+        <br />
+        <br />
+        <input type="submit" name="tilmels" value="Tilmeld nyhedsbrev" />
+      </fieldset>
+    </form>
+  </body>
+</html>
